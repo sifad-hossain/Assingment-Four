@@ -9,15 +9,6 @@ function calculateMoney(ticketSale) {
     return result;
     }
 
-const calcu = calculateMoney(-20)
-console.log(calcu);
-
-
-
-
-
-
-
 
     function checkName(name) {
     if (typeof name !== "string") {
@@ -35,11 +26,6 @@ console.log(calcu);
     return "Bad Name";
     }
 
-const man = checkName(122);
-console.log(man);
-
-
-
 
 
     function deleteInvalids(array) {
@@ -55,10 +41,6 @@ console.log(man);
     return result;
     }
 
-const delet = deleteInvalids({num: [ 1 , 2 , 3 ]});
-console.log(delet);
-
-
 
 
 function password(obj) {
@@ -72,16 +54,6 @@ function password(obj) {
     obj.siteName = obj.siteName[0].toUpperCase() + obj.siteName.slice(1);   
     return obj.siteName + "#" + obj.name + "@" + obj.birthYear;
   }
-
-
-
- const pass = password({ name: "kolimuddin" , birthYear: 1999 , siteName: "google" })
-
-console.log(pass);
-
-
-
-
 
 
     function monthlySavings(arr, livingCost) {
@@ -106,5 +78,3 @@ console.log(pass);
     }
     }
 
-const month = monthlySavings(100, [ 900 , 2700 , 3400])
-console.log(month);
